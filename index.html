@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydrogeomatics</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+
+<!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/hydrogeomatics.css">
+
+<!-- Lightbox2 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+<!-- Lightbox2 JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</head>
+
+<!-- Head -->
+
+<!--Body -->
+
+<body>
+  <div class="tm-container">
+    <div class="tm-row">
+      <div class="tm-left">
+        <div class="tm-left-inner">
+          <div class="tm-site-header image-item">
+            <h1 class=" tm-site-name image-item"><a href="index.html">Hydrogeomatics</a></h1>
+          </div>
+
+<!-- Navigation Bar-->
+          <nav class="tm-site-nav">
+            <ul class="tm-site-nav-ul">
+               <li class="tm-page-nav-item">
+                <a href="#about-us" class="tm-page-link image-item">
+                  <i class="fas fa-users tm-page-link-icon"></i>
+                  <span>About Us</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#bank-details" class="tm-page-link image-item">
+                  <i class="fas fa-wallet tm-page-link-icon"></i>
+                  <span>Bank Details</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#documents" class="tm-page-link image-item">
+                  <i class="fas fa-file tm-page-link-icon"></i>
+                  <span>Documents</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#photo-gallery" class="tm-page-link image-item">
+                  <i class="fas fa-camera-retro tm-page-link-icon"></i>
+                  <span>Photo Gallery</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#contact" class="tm-page-link image-item">
+                  <i class="fas fa-comments tm-page-link-icon"></i>
+                  <span>Contact</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+<!-- Navigation Bar-->
+
+        </div>        
+      </div>
+      <div class="tm-right">
+        <main class="tm-main">
+          <div class="tm-page-content">
+          </div>
+
+ <!-- About Us -->
+          <div id="about-us" class="tm-page-content">
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1 center-content">              
+              <h2 class="tm-text-primary center-content">About Hydrogeomatcis</h2>
+                <div class="center-content">
+                  <h4>Welcome!</h4>
+                  <p>We offer high-quality hydrographic surveys, including side scan and sonar surveys, at competitive rates without compromising on service quality.</p>
+                  <a class="image-item" href="img/gawadar_ship.png" data-lightbox="hydrogeomatic-image" data-title="Hydrogeomatics - Survey at Gawadar Port"><img src="img/gawadar_ship.png" alt=""></a>
+                  <p>For a comprehensive view of my career and accomplishments, feel free to explore my detailed resume below.</p>
+                </div>
+              <div class="document-item document-gallery center-content" onclick="openDocument('documents/resume.pdf')">
+                <h4>Resume<h4>
+                <img src="documents/resume.jpg" alt="">
+                <script src="js/script.js"></script>
+              </div>
+            </div>
+          </div>
+<!-- About Us -->
+
+<!-- Bank Details -->
+          <div id="bank-details" class="tm-page-content">
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1">              
+              <h2 class="tm-text-primary center-content">Bank Details</h2>
+                <div class="center-content image-item">
+                  <h4>HYDROGEOMATICS @ Bank ALFALAH</h4>
+                  <ul>
+                    <p>IBAN: PK43ALFH5587005001622292<P>
+                    <p>Swift Code: ALFHPKKA016<p>
+                  </ul>
+                  <h4>IMTIAZ AFZAL @ Habib Bank Limited</h4>
+                  <ul>
+                    <p>IBAN: PK68HABB0008960009215003<p>
+                    <p>Swift Code: HABBPKKA786<p>
+                  </ul>
+                </div>
+            </div>
+          </div>
+<!-- Bank Details -->
+
+<!-- Documents -->
+          <div id="documents" class="tm-page-content">
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1 center-content">              
+              <h2 class="tm-text-primary center-content">Brochure Catalog</h2>
+                <div class="document-item document-gallery center-content" onclick="openDocument('documents/ss.pdf')">
+                  <img src="documents/ss.jpg" alt="">
+                  <h4>Side Scan Sonars</h4>
+                  <script src="js/script.js"></script>
+                </div>
+                <div class="document-item document-gallery center-content" onclick="openDocument('documents/es.pdf')">
+                  <img src="documents/es.jpg" alt="">
+                  <h4>Echo Sounder</h4>
+                  <script src="js/script.js"></script>
+                </div>
+                <div class="document-item document-gallery center-content" onclick="openDocument('documents/sf.pdf')">
+                  <img src="documents/sf.jpg" alt="">
+                  <h4>Starfish Side Scan 42F</h4>
+                  <script src="js/script.js"></script>
+                </div>
+            </div>
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1">              
+              <h2 class="tm-text-primary center-content">Certificate</h2>
+                <div class="center-content image-item">
+                  <h4>Hydrographic Department - Maritime Safety Agency of Japan</h4>
+                  <a href="img/certificate.jpg" data-lightbox="certificate-image" data-title="Mr. Imtiaz Afzal awarded a certificate from Hydrographic Department - Maritime Safety Agency of Japan upon succesful completion of course"><img src="img/certificate.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1 center-content">              
+              <h2 class="tm-text-primary center-content">Resume</h2>
+                <div class="document-item document-gallery center-content" onclick="openDocument('documents/resume.pdf')">
+                  <img src="documents/resume.jpg" alt="">
+                  <h4>Mr. Imtiaz Afzal - CV</h4>
+                  <script src="js/script.js"></script>
+                </div>
+            </div>
+          </div>
+<!-- Documents -->
+
+<!-- Photo Gallery-->
+          <div id="photo-gallery" class="tm-page-content">
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1 center-content">              
+              <h2 class="tm-text-primary center-content">Photo Gallery</h2>
+                <div class="center-content">
+                  <div class="image-item"> 
+                    <a class="image-item" href="img/work.jpg" data-lightbox="hydrogeomatic-image" data-title="Hydrogeomatics - Work in progress."><img src="img/work.jpg" alt=""></a>
+                    <p>Work in progress.<p>
+                  </div>
+                  <div class="image-item ">
+                    <a class="image-item" href="img/starfish_scan.jpg" data-lightbox="hydrogeomatic-image" data-title="Hydrogeomatics - Starfish Side Sacn 42F Visualization."><img src="img/starfish_scan.jpg" alt=""></a>
+                    <p>Starfish Side Sacn 42F Visualization.<p>
+                  </div>
+                  <div class="image-item">
+                    <a class="image-item" href="img/echo-sounding.jpg" data-lightbox="hydrogeomatic-image" data-title="Hydrogeomatics - Scan via Echo Sounder."><img src="img/echo-sounding.jpg" alt=""></a>
+                    <p>Scan via Echo Sounder.<p>  
+                  </div>
+                  <script src="js/script.js"></script>
+                </div>
+            </div>
+          </div>
+<!-- Photo Gallery -->
+
+<!-- Contact -->
+          <div id="contact" class="tm-page-content">
+            <div class="tm-black-bg tm-contact-text-container center-content">
+              <h2 class="tm-text-primary">Contact Hydrogeomatics</h2>
+              <a class="fas fa-mobile  image-item" href="tel:+923008216631">  Call us at +92-300-8216631</a>
+              <p></p>
+              <a class="fas fa-envelope image-item" href="mailto:imtiazafzal@yahoo.com">  Email us at: imtiazafzal@yahoo.com</a>
+              <p></p>              
+              <p>For further details and inquiries, please feel free to drop us a message below.</p>
+            </div>
+            <div class="tm-black-bg tm-contact-form-container tm-align-right">
+              <form action="process_form.php" method="POST" id="contact-form">
+                <div class="tm-form-group">
+                  <input type="text" name="name" class="tm-form-control" placeholder="Name" required="" />
+                </div>
+                <div class="tm-form-group">
+                  <input type="email" name="email" class="tm-form-control" placeholder="Email" required="" />
+                </div>        
+                <div class="tm-form-group tm-mb-30">
+                  <textarea rows="6" name="message" class="tm-form-control" placeholder="Message" required=""></textarea>
+                </div>        
+                <div>
+                  <button type="submit" class="tm-btn-primary tm-align-right">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+<!-- Contact  -->
+
+        </main>
+      </div>    
+    </div>
+  </div>
+
+ <!-- WhatsApp  -->
+  <a href="https://wa.me/+923008216631?text=Hello%20there,%20I%20want%20to%20contact%20you" target="_blank">
+    <img class="whatsapp-logo image-item" src="img/whatsapp-icon.png" alt="">
+  </a>
+<!-- WhatsApp  -->
+
+<!-- Background video -->
+  <div class="tm-video-wrapper">
+      <video autoplay muted loop id="tm-video">
+          <source src="video/hydrogeomatics-bg.mp4" type="video/mp4">
+      </video>
+  </div>
+<!-- Background video -->
+
+<!-- Java Script -->
+  <script src="js/jquery-3.4.1.min.js"></script>    
+  <script>
+    function setVideoSize() {
+      const vidWidth = 1920;
+      const vidHeight = 1080;
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const tempVidWidth = windowHeight * vidWidth / vidHeight;
+      const tempVidHeight = windowWidth * vidHeight / vidWidth;
+      const newVidWidth = tempVidWidth > windowWidth ? tempVidWidth : windowWidth;
+      const newVidHeight = tempVidHeight > windowHeight ? tempVidHeight : windowHeight;
+      const tmVideo = $('#tm-video');
+
+      tmVideo.css('width', newVidWidth);
+      tmVideo.css('height', newVidHeight);
+    }
+
+    function openTab(evt, id) {
+      $('.tm-tab-content').hide();
+      $('#' + id).show();
+      $('.tm-tab-link').removeClass('active');
+      $(evt.currentTarget).addClass('active');
+    }    
+
+    function initPage() {
+      let pageId = location.hash;
+
+      if(pageId) {
+        highlightMenu($(`.tm-page-link[href^="${pageId}"]`)); 
+        showPage($(pageId));
+      }
+      else {
+        pageId = $('.tm-page-link.active').attr('href');
+        showPage($(pageId));
+      }
+    }
+
+    function highlightMenu(menuItem) {
+      $('.tm-page-link').removeClass('active');
+      menuItem.addClass('active');
+    }
+
+    function showPage(page) {
+      $('.tm-page-content').hide();
+      page.show();
+    }
+
+    $(document).ready(function(){
+
+      initPage();
+
+      $('.tm-page-link').click(function(event) {
+        
+        if(window.innerWidth > 991) {
+          event.preventDefault();
+        }
+
+        highlightMenu($(event.currentTarget));
+        showPage($(event.currentTarget.hash));
+      });
+
+      
+      $('.tm-tab-link').on('click', e => {
+        e.preventDefault(); 
+        openTab(e, $(e.target).data('id'));
+      });
+
+      $('.tm-tab-link.active').click(); // Open default tab
+
+
+      setVideoSize();
+
+      // Set video background size based on window size
+      let timeout;
+      window.onresize = function(){
+        clearTimeout(timeout);
+        timeout = setTimeout(setVideoSize, 100);
+      };
+
+      const btn = $("#tm-video-control-button");
+
+      btn.on("click", function(e) {
+        const video = document.getElementById("tm-video");
+        $(this).removeClass();
+
+        if (video.paused) {
+          video.play();
+          $(this).addClass("fas fa-pause");
+        } else {
+          video.pause();
+          $(this).addClass("fas fa-play");
+        }
+      });
+    });
+      
+  </script>
+
+<!-- Java Script -->
+
+</body>
+
+<!--Body -->
+
+</html>
