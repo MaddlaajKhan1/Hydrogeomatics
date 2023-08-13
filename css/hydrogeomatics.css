@@ -103,7 +103,6 @@ p {
     font-size: inherit; 
 
 }
-
 h2 { margin-top: 0; }
 
 #tm-video {
@@ -153,7 +152,7 @@ h2 { margin-top: 0; }
 .tm-site-logo { margin-right: 30px; }
 
 .tm-site-name {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-style: italic;    
 }
 
@@ -381,7 +380,7 @@ h2 { margin-top: 0; }
 }
 
 @media (max-width: 479px) {
-    .tm-site-name { font-size: 2.6rem; }
+    .tm-site-name { font-size: 2.0rem; }
     .tm-site-logo { margin-right: 20px; }
 
     .tm-list-item {
